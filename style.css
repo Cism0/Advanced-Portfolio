@@ -494,9 +494,17 @@ nav {
   margin-bottom: 60px;
 }
 
+.project__pad__top {
+  padding-top: 40px;
+}
+
 .project__img {
   width: 100%;
   transition: all 600ms ease;
+}
+
+.img__brightness {
+  filter: brightness(95%);
 }
 
 .project:hover .project__img {
